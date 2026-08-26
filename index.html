@@ -85,6 +85,7 @@
       text-transform:uppercase;
     }
 
+
     .grid{
       display:grid;
       grid-template-columns:1fr 1fr;
@@ -181,6 +182,24 @@
       border-color:var(--navy);
     }
 
+    .about-link{
+      text-align:center;
+      margin-top:10px;
+    }
+
+    .about-link a{
+      font-family:"Cormorant Garamond", Georgia, serif;
+      font-size:1.25rem;
+      font-weight:600;
+      color:var(--navy);
+      text-decoration:none;
+      border-bottom:1px solid rgba(17,38,83,.35);
+    }
+
+    .about-link a:hover{
+      border-color:var(--navy);
+    }
+
     footer{
       text-align:center;
       margin-top:58px;
@@ -209,7 +228,28 @@
         letter-spacing:.28em;
       }
 
-      .grid{
+  
+    .top-nav{
+      text-align:center;
+      margin-top:18px;
+    }
+
+    .top-nav a{
+      font-size:.72rem;
+      font-weight:600;
+      letter-spacing:.24em;
+      color:var(--navy);
+      text-decoration:none;
+      text-transform:uppercase;
+      border-bottom:1px solid transparent;
+      padding-bottom:3px;
+    }
+
+    .top-nav a:hover{
+      border-color:var(--navy);
+    }
+
+    .grid{
         grid-template-columns:1fr;
         gap:48px;
       }
@@ -234,7 +274,25 @@
         margin-top:44px;
       }
 
-      footer{
+      .about-link{
+      text-align:center;
+      margin-top:10px;
+    }
+
+    .about-link a{
+      font-family:"Cormorant Garamond", Georgia, serif;
+      font-size:1.25rem;
+      font-weight:600;
+      color:var(--navy);
+      text-decoration:none;
+      border-bottom:1px solid rgba(17,38,83,.35);
+    }
+
+    .about-link a:hover{
+      border-color:var(--navy);
+    }
+
+    footer{
         margin-top:26px;
       }
     }
@@ -302,6 +360,10 @@
     <section class="contact" aria-label="Contact">
       <a href="mailto:robertjamesmusic@gmail.com">robertjamesmusic@gmail.com</a>
     </section>
+
+    <div class="about-link">
+      <a href="about.html">About</a>
+    </div>
 
     <footer>robertjriganati.com</footer>
   </main>
